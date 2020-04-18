@@ -1,0 +1,67 @@
+html, body, #root{
+  height: 100%;
+}
+.navigation{
+  align-self: flex-end;
+}
+
+.mainGrid{
+  min-height: 100%;
+}
+
+.root{
+  width: 40%;
+  justify-content: center;
+}
+
+.heading{
+  color: #3f51b5;
+  text-align: center;
+}
+
+.gridHeading{
+  align-self: flex-start;
+}
+
+.inputColor{
+  color: #3f51b5;
+}
+
+.wording{
+  width: 500px;
+  color: grey;
+}
+
+.paper{
+  border: 2px solid #000;
+  box-shadow: 5px;
+  padding: 8px 8px 48px;
+  width: 70%;
+  height: 90%;
+  background: #fff
+}
+
+
+@media only screen and (max-width: 700px) {
+  .heading{
+    font-size: 1.2em;
+  }
+}
+
+
+@media only screen and (max-width: 420px) {
+  .heading{
+    font-size: 1em;
+  }
+  .mainContainer{
+    margin:0px !important;
+    padding:0px !important; 
+  }
+  .wording, .root{
+    font-size: 0.8em;
+  }
+  .paper{
+    width: 80%
+  }
+
+}

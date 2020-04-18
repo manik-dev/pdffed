@@ -1,0 +1,8 @@
+{
+  "short_name": "PDF Form App",
+  "name": "PDF Acro Form Filling Tool",
+  "start_url": "https://manik-dev.github.io/pdffed",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

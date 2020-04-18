@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/pdffed/static/css/main.24bb085b.chunk.css",
+    "main.js": "/pdffed/static/js/main.186588b0.chunk.js",
+    "main.js.map": "/pdffed/static/js/main.186588b0.chunk.js.map",
+    "runtime-main.js": "/pdffed/static/js/runtime-main.491b9dba.js",
+    "runtime-main.js.map": "/pdffed/static/js/runtime-main.491b9dba.js.map",
+    "static/js/2.002c1df1.chunk.js": "/pdffed/static/js/2.002c1df1.chunk.js",
+    "static/js/2.002c1df1.chunk.js.map": "/pdffed/static/js/2.002c1df1.chunk.js.map",
+    "index.html": "/pdffed/index.html",
+    "precache-manifest.a585cef6e22fd5d42218ca3239417533.js": "/pdffed/precache-manifest.a585cef6e22fd5d42218ca3239417533.js",
+    "service-worker.js": "/pdffed/service-worker.js",
+    "static/css/main.24bb085b.chunk.css.map": "/pdffed/static/css/main.24bb085b.chunk.css.map",
+    "static/js/2.002c1df1.chunk.js.LICENSE.txt": "/pdffed/static/js/2.002c1df1.chunk.js.LICENSE.txt",
+    "static/media/fw4.pdf": "/pdffed/static/media/fw4.e733c24f.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.491b9dba.js",
+    "static/js/2.002c1df1.chunk.js",
+    "static/css/main.24bb085b.chunk.css",
+    "static/js/main.186588b0.chunk.js"
+  ]
+}
