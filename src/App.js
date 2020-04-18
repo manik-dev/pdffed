@@ -36,7 +36,7 @@ class App extends React.Component{
     return (
       <Container maxWidth="md" style={{height: '100%'}} className="mainContainer">
         <Typography component="div" style={this.classes.container} >
-            <Route path="/" exact render={() => (
+            <Route path="/pdffed" exact render={() => (
                 <Welcome />
             )} />
 
