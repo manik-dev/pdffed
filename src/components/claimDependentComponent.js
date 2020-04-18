@@ -101,7 +101,7 @@ function ClaimDependents(props){
             <Grid item className="wording">
             </Grid>
 
-            <Navigation prev="/step2" next="/step4" action={step3Data(deps)}/>
+            <Navigation prev="/pdffed/step2" next="/pdffed/step4" action={step3Data(deps)}/>
 
         </Grid>
     )

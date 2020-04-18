@@ -57,7 +57,7 @@ function MaritalStatusComponent(props){
                 </Grid>
 
 
-            <Navigation prev="/step1/address" next="/step2" action={msData(ms)}/>
+            <Navigation prev="/pdffed/step1/address" next="/pdffed/step2" action={msData(ms)}/>
       </Grid>
     )
 

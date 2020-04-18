@@ -115,7 +115,7 @@ class AddressComponent extends React.Component{
                 />
                 </Grid>
 
-                <Navigation prev="/step1/ssn" next="/step1/ms"  action={addressData(this.state)}/>
+                <Navigation prev="/pdffed/step1/ssn" next="/pdffed/step1/ms"  action={addressData(this.state)}/>
             </Grid>
         )
     }

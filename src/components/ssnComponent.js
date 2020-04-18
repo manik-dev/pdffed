@@ -65,7 +65,7 @@ function SSNComponent(props){
             </Grid>
 
 
-            <Navigation prev="/step1/name" next="/step1/address" action={ssnData(ssn)} />
+            <Navigation prev="/pdffed/step1/name" next="/pdffed/step1/address" action={ssnData(ssn)} />
       </Grid>
 
     )

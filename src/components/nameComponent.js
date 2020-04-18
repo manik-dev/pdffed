@@ -52,7 +52,7 @@ function NameComponent(props){
                       ))
 
                   }
-                 <Navigation prev="/" next="/step1/ssn" action={nameData(name)} />
+                 <Navigation prev="/pdffed" next="/pdffed/step1/ssn" action={nameData(name)} />
 
                 </Grid>
               </form>

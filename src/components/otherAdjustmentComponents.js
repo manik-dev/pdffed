@@ -127,7 +127,7 @@ enter the result here
             <Grid item className="wording">
             </Grid>
 
-            <Navigation prev="/step3" next="/done" action={step4Data(adjust)}/>
+            <Navigation prev="/pdffed/step3" next="/pdffed/done" action={step4Data(adjust)}/>
 
         </Grid>
     )

@@ -40,49 +40,49 @@ class App extends React.Component{
                 <Welcome />
             )} />
 
-            <Route path="/step1/name" exact render={()=>
+            <Route path="/pdffed/step1/name" exact render={()=>
               (
                 <NameComponent />
               )
             } />
 
-            <Route path="/step1/ssn" exact render={()=>
+            <Route path="/pdffed/step1/ssn" exact render={()=>
               (
                 <SSNComponent />
               )
             } />
 
-            <Route path="/step1/address" exact render={()=>
+            <Route path="/pdffed/step1/address" exact render={()=>
               (
                 <AddressComponent />
               )
             } />
 
-            <Route path="/step1/ms" exact render={()=>
+            <Route path="/pdffed/step1/ms" exact render={()=>
               (
                 <MaritalStatusComponent />
               )
             } />
 
-            <Route path="/step2" exact render={()=>
+            <Route path="/pdffed/step2" exact render={()=>
               (
                 <MultipleJobs />
               )
             } />
             
-            <Route path="/step3" exact render={()=>
+            <Route path="/pdffed/step3" exact render={()=>
               (
                 <ClaimDependents />
               )
             } />
 
-            <Route path="/step4" exact render={()=>
+            <Route path="/pdffed/step4" exact render={()=>
               (
                 <OtherAdjustments />
               )
             } />
 
-            <Route path="/done" exact render={()=>
+            <Route path="/pdffed/done" exact render={()=>
               (
                 <PdfView />
               )

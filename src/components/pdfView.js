@@ -212,7 +212,7 @@ function PdfView(props) {
             </Grid>
 
 
-        <Navigation prev="/step4" />
+        <Navigation prev="/pdffed/step4" />
   </Grid>
     
   );

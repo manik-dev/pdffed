@@ -15,7 +15,7 @@ export default function Welcome(){
                 <h1 className="heading">Hit Next to Get Started</h1>
             </Grid>
             
-            <Navigation next="/step1/name" />
+            <Navigation next="/pdffed/step1/name" />
       </Grid>
 
     )

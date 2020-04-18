@@ -34,7 +34,7 @@ is accurate for jobs with similar pay; otherwise, more tax than necessary may be
                 </h4>
             </Grid>
 
-            <Navigation prev="/step1/ms" next="/step3" action={step2Data(mulJob)}/>
+            <Navigation prev="/pdffed/step1/ms" next="/pdffed/step3" action={step2Data(mulJob)}/>
 
         </Grid>
     )
