@@ -33,7 +33,8 @@ function NameComponent(props){
                   </Grid>
                   {
                       
-                      Object.keys(name).map(nameObj => (
+                    //   Object.keys(name).map(nameObj => (  // the element merging was messing up the order
+                        ['firstName', 'middleName', 'lastName'].map(nameObj => (
                         <Grid 
                         container 
                         item 

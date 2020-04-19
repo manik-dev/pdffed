@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "29f3ae9aa221627af23fe39a77c5c08f",
+    "revision": "4b6e35a81beb91f282c0cdc92feff63f",
     "url": "/pdffed/index.html"
   },
   {
-    "revision": "d19784274b4ffe0efdf3",
+    "revision": "9d813a6e725e0bf0fd1b",
     "url": "/pdffed/static/css/main.24bb085b.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pdffed/static/js/2.32ea27f2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d19784274b4ffe0efdf3",
-    "url": "/pdffed/static/js/main.3d35016c.chunk.js"
+    "revision": "9d813a6e725e0bf0fd1b",
+    "url": "/pdffed/static/js/main.46446316.chunk.js"
   },
   {
     "revision": "307cfaea375949ad6de8",
