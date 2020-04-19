@@ -21,7 +21,6 @@ const validateText = (ev, type, name, setName) => {
 function NameComponent(props){
     const [name, setName] = useState(props.formReducer.step1.name);
     return(
-        <form noValidate autoComplete="off" className="mainGrid">
             <Grid 
             container 
             justify="center" 
@@ -32,14 +31,14 @@ function NameComponent(props){
                   <Grid item className="gridHeading">
                     <h1 className="heading">Let's get your Name</h1>
                   </Grid>
-                  
                   {
+                      
                       Object.keys(name).map(nameObj => (
                         <Grid 
                         container 
                         item 
                         key={nameObj} 
-                        xs={11} 
+                        xs={12} 
                         className="root" >
                             <TextField 
                                 className="root" 
@@ -55,7 +54,6 @@ function NameComponent(props){
                  <Navigation prev="/pdffed" next="/pdffed/step1/ssn" action={nameData(name)} />
 
                 </Grid>
-              </form>
     );
 }
 
