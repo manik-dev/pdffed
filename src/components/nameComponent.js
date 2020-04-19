@@ -39,7 +39,7 @@ function NameComponent(props){
                         container 
                         item 
                         key={nameObj} 
-                        xs={12} 
+                        xs={11} 
                         className="root" >
                             <TextField 
                                 className="root" 

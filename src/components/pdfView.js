@@ -12,6 +12,7 @@ import minipdf from '../../node_modules/pdfform.js/minipdf'
 import Grid from '@material-ui/core/Grid';
 import Navigation from '../components/navigation';
 import { connect } from 'react-redux';
+import { isMobile } from "react-device-detect";
 
 const useStyles = makeStyles(theme => ({
   modal: {
@@ -107,9 +108,8 @@ const pdfDataLoaded = (response, formReducer) => {
   return fields;
 }
 
-
+var url = "";
 function asyncCall(props) {
-
   var xhr = new XMLHttpRequest();
   xhr.open("GET", PdfFile, true);
   xhr.responseType = "arraybuffer";
@@ -120,16 +120,18 @@ function asyncCall(props) {
          var fields = pdfDataLoaded(this.response, props.formReducer)
          var pdfData =  pdfform(minipdf).transform(this.response, fields)
          var blob = new Blob([pdfData], {type: 'application/pdf'});
-         var url = URL.createObjectURL(blob);
+         url =  URL.createObjectURL(blob);
 
          var iframe = document.getElementById("pdfFrame");
+        if(isMobile){
+          window.location = url;
+        }
          iframe.src=url
       }
     }
   }
 }
 xhr.send()
-
 }
 
 const resetFields = function(fields){
@@ -146,8 +148,9 @@ function PdfView(props) {
   const [open, setOpen] = React.useState(false);
 
   const handleOpen = () => {
-    asyncCall(props)
-    setOpen(true);
+     asyncCall(props);
+     if(!isMobile)
+        setOpen(true);
   };
 
   const handleClose = () => {
@@ -209,7 +212,7 @@ function PdfView(props) {
         </Fade>
       </Modal>
     </div>
-            </Grid>
+  </Grid>
 
 
         <Navigation prev="/pdffed/step4" />
